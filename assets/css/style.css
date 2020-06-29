@@ -1,0 +1,38 @@
+*{
+	box-sizing: border-box;
+}
+a{
+	text-decoration:none;
+}
+
+header{
+	font-size: large;
+}
+
+.container{
+	display:flex;
+	flex-direction: column;
+}
+
+.section{ 
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.section .nav{
+	flex-grow: 1;
+}
+
+.section .nav .items{
+	list-style: none;
+}
+
+.section .content{
+	flex-grow: 5;
+}
+
+
+
+
+
